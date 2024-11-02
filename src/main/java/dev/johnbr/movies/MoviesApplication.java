@@ -13,9 +13,9 @@ public class MoviesApplication {
 		SpringApplication.run(MoviesApplication.class, args);
 	}
 
-	@GetMapping("/")
+	@GetMapping("/root")
 	public String apiRoot(){
-		return "Hello app";
+		return "Hello root URL";
 	}
 
 }
