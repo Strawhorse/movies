@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 
+//Most business logic takes place in service class/es
+
 
 @Service
 public class MovieService {
